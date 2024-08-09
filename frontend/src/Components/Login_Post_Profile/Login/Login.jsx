@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useAuth } from '../../../Context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
+import PostPage from '../../../Pages/PostPage';
 
 const Login = () => {
   const [isSignup, setIsSignup] = useState(false);
@@ -126,6 +127,9 @@ const Login = () => {
           )}
         </div>
       </form>
+      <div className='post'>
+        <PostPage />
+      </div>
     </div>
   );
 };
