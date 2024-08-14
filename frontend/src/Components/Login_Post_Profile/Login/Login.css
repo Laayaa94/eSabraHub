@@ -7,6 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    gap: 60px;
   }
   
   .auth-form {
@@ -82,4 +83,11 @@
     color: red;
     font-size: 0.8rem;
   }
+  
+  .post {
+    background-color: #0000008f;
+  }
+
+  
+  
   
