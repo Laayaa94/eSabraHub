@@ -16,6 +16,22 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  description: {
+    type: String,
+    default: '', 
+  },
+  profileImage: {
+    type: String, 
+    default: '', 
+  },
+  address: {
+    type: String,
+    default: '', 
+  },
+  contactNumber: {
+    type: String,
+    default: '', 
+  }
 });
 
 // Hash password before saving
